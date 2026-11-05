@@ -1,0 +1,25 @@
+Строк: 90189, колонок: 5
+Колонки и типы: {'userid': 'int64', 'version': 'str', 'sum_gamerounds': 'int64', 'retention_1': 'bool', 'retention_7': 'bool'}
+Пропуски по колонкам: {'userid': 0, 'version': 0, 'sum_gamerounds': 0, 'retention_1': 0, 'retention_7': 0}
+Полных дубликатов строк: 0
+Повторяющихся userid: 0
+Группы: {'gate_40': 45489, 'gate_30': 44700}
+Описание sum_gamerounds:
+count    90189.0
+mean        51.9
+std        195.1
+min          0.0
+25%          5.0
+50%         16.0
+75%         51.0
+max      49854.0
+99-й перцентиль: 493
+Игроков с 0 раундов: 3994 (4.4%)
+Пять самых больших значений:
+ userid version  sum_gamerounds  retention_1  retention_7
+6390605 gate_30           49854        False         True
+ 871500 gate_30            2961         True         True
+3271615 gate_40            2640         True        False
+4832608 gate_30            2438         True         True
+5346171 gate_40            2294         True         True
+Очистка: убрано строк с sum_gamerounds >= 10000: 1. Осталось: 90188
