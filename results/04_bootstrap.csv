@@ -1,0 +1,3 @@
+metric,boot_ci95_low_pp,boot_ci95_high_pp,share_gate40_worse
+retention_1,-1.241,0.066,0.9628
+retention_7,-1.328,-0.306,0.9992

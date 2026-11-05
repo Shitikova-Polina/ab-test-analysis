@@ -5,3 +5,5 @@ __pycache__/
 # их скачивает скрипт scripts/01_download_data.py
 data/*.csv
 .DS_Store
+# Промежуточные файлы бутстрэпа (пересоздаются скриптом)
+results/*.npy
