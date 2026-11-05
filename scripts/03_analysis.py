@@ -59,6 +59,7 @@ for metric in ["retention_1", "retention_7"]:
         "rate_gate_30": round(rate_a, 5),
         "rate_gate_40": round(rate_b, 5),
         "diff_pp": round(diff * 100, 3),           # разница в процентных пунктах
+        "rel_diff_pct": round(diff / rate_a * 100, 2),  # та же разница в % от старой версии
         "ci95_low_pp": round(ci_low * 100, 3),
         "ci95_high_pp": round(ci_high * 100, 3),
         "z": round(z_stat, 3),
